@@ -32,4 +32,3 @@ def get_youtube_sentiment(video_stats_df):
   mean_sentiments.sort_values(by = 'mean_sentiment', inplace = True, ascending = False)
   
   return mean_sentiments
-  
